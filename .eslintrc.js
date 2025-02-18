@@ -12,7 +12,8 @@ module.exports = {
   },
   rules: {
     'import/extensions': ['error', { js: 'always' }], // require js file extensions in imports
-    'linebreak-style': ['error', 'unix'], // enforce unix linebreaks
+    'linebreak-style': 'off', // I'm using windows for development. does not really matter
     'no-param-reassign': [2, { props: false }], // allow modifying properties of param
+    'indent': 'off', //turn off indent checking. does not really matter
   },
 };
