@@ -1,0 +1,19 @@
+.quote {
+    background-color: lightgray;
+    padding: 1em;
+    margin: 1em;
+}
+
+.quote blockquote {
+    font-weight: 700;
+    margin-bottom: 0
+}
+
+.quote blockquote::after {
+    content: "";
+    display: block;
+    position:relative;
+    top: 0.25em;
+    width: 5pc;
+    border-bottom: 2px solid black;     
+}
