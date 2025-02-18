@@ -1,0 +1,11 @@
+.quote {
+    background-color: darkgray;
+    border-bottom: 2px solid gray;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.quote p strong {
+    font-weight: 700;
+}
